@@ -19,6 +19,27 @@
       background-color: rgb(185, 209, 255);
     }
   }
+  nav {
+    background-color: rgb(144, 156, 237);
+  }
+  
+  .one ol {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .one {
+    display: inline-block;
+  }
+  
+  .one a::after {
+    display: inline-block;
+    color: #000;
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+  }
+
   form.form-example {
     display: table;
   }
