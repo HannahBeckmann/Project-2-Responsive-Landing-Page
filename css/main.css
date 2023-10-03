@@ -9,14 +9,14 @@
   /* media query for tablet */
   @media (min-width: 481px) and (max-width: 767px) {
     body {
-      background-color: maroon;
+      background-color: teal;
     }
   }
   
   /* media query for desktop */
   @media (min-width: 768px) {
     body {
-      background-color: rgb(185, 209, 255);
+      background-color: teal;
     }
   }
   nav {
