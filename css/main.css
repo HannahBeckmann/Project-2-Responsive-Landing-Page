@@ -16,8 +16,34 @@
   /* media query for desktop */
   @media (min-width: 768px) {
     body {
-      background-color: peachpuff;
+      background-color: rgb(185, 209, 255);
     }
   }
-
-  
+  form.form-example {
+    display: table;
+  }
+  div.form-example {
+    display: table-row;
+  }
+  label,
+  input {
+    display: table-cell;
+    font-family: monospace;
+    margin-bottom: 10px;
+    color: blue;
+  }
+  label {
+    padding-right: 10px;
+  }
+   .page-section {
+    display: flex;
+    justify-content: center;
+   }
+   label {
+    display: block;
+    font-family: monospace;
+  }
+  input,
+  label {
+    margin: 0.4rem 0;
+  }
