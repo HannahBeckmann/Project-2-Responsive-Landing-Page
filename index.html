@@ -23,16 +23,31 @@
 </head>
 
 <body>
-  <!-- Place your site's HTML here -->
-  <script src="js/main.js"></script>
-</body>
-<header>
-  <nav class="one">
-    <ol>
-      <li class="one"><a href="./About.html">About</a></li>
-      <li class="one"><a href="./Contact.html">Contact</a></li>
-      <li class="one"><a href="./index.html">Home</a></li>
-    </ol>
+  <body>
+    <!-- Place your site's HTML here -->
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+  <nav>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <!-- Top Navigation Menu -->
+  
+  <div class="navigation">
+    <a href="./index.html" class="active">Name of Webpage</a>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+      <a href="./news.html">News</a>
+      <a href="./contact.html">Contact</a>
+      <a href="./about.html">About</a>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </nav>
+  </div>
+  <h1>Home</h1>
+    <script src="js/main.js"></script>
+  </body>
   </nav>
   <h1>Main Page Title</h1>
 </header>
@@ -48,9 +63,4 @@
   </div>
   <div class="form">
     <input type="submit" value="Subscribe!" />
-  </div>
-</form>
-<label for="birthday">Birthday:</label>
-<input type="date" id="birthday" name="birthday" value="2018-07-22" min="2018-01-01" max="2018-12-31" />
-
 </html>
